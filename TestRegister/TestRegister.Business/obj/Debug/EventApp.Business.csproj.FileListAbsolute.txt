@@ -1,9 +1,0 @@
-C:\Users\Maxim\Desktop\Update\TestRegister\TestRegister.Business\bin\Debug\TestRegister.Business.dll
-C:\Users\Maxim\Desktop\Update\TestRegister\TestRegister.Business\bin\Debug\TestRegister.Business.pdb
-C:\Users\Maxim\Desktop\Update\TestRegister\TestRegister.Business\bin\Debug\TestRegister.DAL.dll
-C:\Users\Maxim\Desktop\Update\TestRegister\TestRegister.Business\bin\Debug\EntityFramework.dll
-C:\Users\Maxim\Desktop\Update\TestRegister\TestRegister.Business\bin\Debug\TestRegister.DAL.pdb
-C:\Users\Maxim\Desktop\Update\TestRegister\TestRegister.Business\bin\Debug\EntityFramework.xml
-C:\Users\Maxim\Desktop\Update\TestRegister\TestRegister.Business\obj\Debug\EventApp.Business.csprojResolveAssemblyReference.cache
-C:\Users\Maxim\Desktop\Update\TestRegister\TestRegister.Business\obj\Debug\TestRegister.Business.dll
-C:\Users\Maxim\Desktop\Update\TestRegister\TestRegister.Business\obj\Debug\TestRegister.Business.pdb
