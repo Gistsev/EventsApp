@@ -1,0 +1,29 @@
+﻿@model TestRegister.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+<br>
+<br>
+<br>
+<h2>@GlobalRes.LogIn</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        @Html.ValidationSummary()
+        <input type="hidden" name="returnUrl" value="@ViewBag.returnUrl" />
+        <p>
+            <label>@GlobalRes.Email</label><br />
+           @Html.EditorFor(x => x.Email)      
+        </p>
+        <p>
+            <label>@GlobalRes.Password</label><br />
+            @Html.EditorFor(x => x.Password)
+        </p>
+        <p><button type="submit">Войти</button></p>
+    </div>
+}

@@ -1,0 +1,40 @@
+﻿@model TestRegister.Business.Models.UserModel
+
+@{
+    ViewBag.Title = "UserInformation";
+}
+
+<head>
+    <link href="@Url.Content("~/Content/Profile.css")"
+          rel="stylesheet" type="text/css" />
+</head>
+
+<h2>@GlobalRes.MyAcc</h2>
+
+<div class="all">
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+
+    <div class="image">
+        <img src="@ViewBag.img">
+    </div><br>
+<div class="info">
+    <div>
+        <h4>@GlobalRes.FirstName</h4>
+        <b>@ViewBag.FirstName</b>
+    </div>
+    <div>
+        <h4>@GlobalRes.Patronymic</h4>
+        <b>@ViewBag.Surname</b>
+    </div>
+    <div>
+        <h4>@GlobalRes.LastName</h4>
+        <b>@ViewBag.LastName</b>
+    </div>
+    <div>
+        <h4>@GlobalRes.Phone </h4>
+        <b>@ViewBag.Phone </b>
+    </div>
+</div>
+</div><br>

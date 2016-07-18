@@ -1,0 +1,51 @@
+﻿h2 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.all {
+    background: #d3d3d3;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px #313131;
+    margin-left: 150px;
+    padding: 20px;
+    height: auto;
+}
+
+.title {
+    font: italic 30px bold Georgia, "Times new Roman", "Arial";
+    text-align: center;
+}
+
+.description {
+    font: 20px bold Georgia, "Times new Roman", "Arial";
+    padding: 20px;
+}
+
+.time {
+    color: #170abf;
+}
+
+.comment {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.time_comment {
+    margin-left: 20px;
+}
+
+.delete {
+    margin-left: 20px;
+    background: #6495ED;
+    width: 70px;
+    text-align: center;
+}
+
+.delete:hover {background: #800000;}
+
+.create_comment {
+    margin-left: 500px;
+    margin-top: -30px;
+}

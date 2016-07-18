@@ -1,0 +1,39 @@
+﻿@model IEnumerable<TestRegister.DAL.Entity.GroupEvent>
+@{
+    ViewBag.Title = "Events";
+}
+
+<head>
+    <link href="@Url.Content("~/Content/EventsView.css")"
+          rel="stylesheet" type="text/css"/>
+</head>
+
+
+<div class="title">
+<h2>@GlobalRes.KindofEvents</h2>
+    </div>
+<br>
+
+<div class="all">
+    <div class="kind_amount">
+        <div class="kind">
+            @GlobalRes.Kind
+        </div>
+        <br>
+        <div class="amount">
+            @GlobalRes.Amount
+        </div>
+        </div>
+
+    @foreach (var item in Model)
+    {
+        <div>
+            <div class="name_event">
+                @Html.ActionLink(item.Name.ToString(), "SpecificGroup", "Home", new RouteValueDictionary(new {id = item.Id}), null)
+            </div>
+            <div class="count_event">
+                @Html.DisplayFor(model => item.EventsCount)
+            </div>
+        </div>
+    }
+</div>
